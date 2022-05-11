@@ -65,5 +65,11 @@ public class Category implements Serializable {
 		Category other = (Category) obj;
 		return Objects.equals(id, other.id);
 	}
+
+	public Category(Long id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 	
 }

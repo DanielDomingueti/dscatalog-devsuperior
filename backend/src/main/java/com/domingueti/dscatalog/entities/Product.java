@@ -31,7 +31,7 @@ public class Product implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private @Getter Long id;
+	private @Getter @Setter Long id;
 	
 	private @Getter @Setter String name;
 	
