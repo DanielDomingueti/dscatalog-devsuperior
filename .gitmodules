@@ -1,0 +1,3 @@
+[submodule "TDD/bds2"]
+	path = TDD/bds2
+	url = https://github.com/DanielDomingueti/dscatalog-devsuperior
